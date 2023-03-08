@@ -1,0 +1,23 @@
+<%- include('partials/header') -%>
+
+<h1>Compose</h1>
+
+
+<form action="/compose" method="post">
+    <div class="form-floating">
+        <h3>Title</h3>
+        <input name="newItemTitle" type="text" class="form-control" id="floatingInputDisabled" autocomplete="off">
+        <label for="floatingInputDisabled"></label>
+    </div>
+
+    <div class="form-floating">
+        <h3>Post</h3>
+        <textarea name="newItem" id="floatingTextarea2" style="height: 100px" class="form-control"></textarea>
+        <label for="floatingTextarea2"></label>
+    </div>
+
+    <button class="btn btn-primary" type="submit" name="list">Publish</button>
+</form>
+</div>
+
+<%- include('partials/footer') -%>
