@@ -8,11 +8,12 @@
         <% postItem.forEach(function(post) { %>
             
             
-                <h1> <%= post.itemTitle%></h1>
+                <h1> <%= post.itemTitle %></h1>
+                <p style="width: 50%; overflow: hidden; text-overflow: ellipsis"><%= post.item %></p>
+                <a href="/post/<%= post.itemTitle %>">Read More</a>
 
-                <%= post.item %>
-        
-            <% }) %>
-                 
+                <% }) %>
 
+    
+    </div>
 <%- include('partials/footer') -%>
