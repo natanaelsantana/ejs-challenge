@@ -2,11 +2,13 @@
 
 This is part of The Complete 2023 Web Development Bootcamp by Angela Yu,
 And she gave the skeleton project, just some empty ejs, css and html files.
+Now it has a database thats store every post the user makes.
 
 She did that because the main goal of the project is to improve the logic and focus in the language.
 Of course, i had to write most part of the project.
 
-I hope you enjoy! I leave to you some prints! in the final of the instructions.
+I hope you enjoy! I leave to you some prints in the final of the instructions.
+note: Now, if you want to store the posts, you need to set up mongoDB
 
 
 ## **Installation Instructions**
@@ -21,7 +23,7 @@ The project will run with:
 node app.js
 ```
 
-It will automatically initialize in "localhost:3001" just type this in your browser
+It will automatically initialize in "localhost:3000" just type this in your browser
 
 
 ## **What I Used**
@@ -31,6 +33,8 @@ CSS
 Bootstrap
 Node.js
 Express.js
+MongoDB
+Mongoose
 EJS
 Body-parser npm
 Lodash npm
