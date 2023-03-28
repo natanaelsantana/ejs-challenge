@@ -5,12 +5,12 @@
     <%= homeStartingContent %>
 
     <div class="box">
-        <% postItem.forEach(function(post) { %>
+        <% items.forEach(function(post) { %>
             
             
-                <h1> <%= post.itemTitle %></h1>
-                <p style="width: 50%; overflow: hidden; text-overflow: ellipsis"><%= post.item %></p>
-                <a href="/post/<%= post.itemTitle %>">Read More</a>
+                <h1> <%= post.name %></h1>
+                <p style="width: 50%; overflow: hidden; text-overflow: ellipsis"><%= post.content %></p>
+                <a href="/post/<%= post.name %>">Read More</a>
 
                 <% }) %>
 
